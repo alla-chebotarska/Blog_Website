@@ -1,0 +1,41 @@
+.content{
+    display: grid;
+    grid-template-rows: 250px 250px 250px 250px;
+    grid-template-areas: 
+    "fp"
+    "sp"
+    "tp"
+    "fourthp";
+}
+
+#firstPost{
+    background-color: indigo;
+    grid-area: fp;
+}
+
+#secondPost{
+    background-color: khaki;
+    grid-area: sp;
+}
+
+#thirdPost{
+    background-color: lightblue;
+    grid-area: tp;
+}
+
+#fourthPost{
+    background-color: lightgreen;
+    grid-area: fourthp;
+}
+
+
+@media(min-width:600px){
+    .content{
+        display:grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-rows: 250px 250px;
+        grid-template-areas: 
+        "fp sp"
+        "tp fourthp";
+    }
+}
