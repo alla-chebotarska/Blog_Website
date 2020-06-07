@@ -7,28 +7,42 @@
     "pi pi"
     "pa pa"
     "pl pl";
-    padding: 10px;
+    padding: 20px;
 }
 
 .postHeader{
-    background-color:burlywood;
     grid-area: ph;
 }
 
 .postArticle{
-    background-color: orchid;
     grid-area: pa;
 }
 
 .postImg{
-    background-color: palegreen;
     grid-area: pi;
-    /* background-image: url('../images/golden-gate-bridge.jpg');
-    background-size: cover; */
+}
+
+#firstPostImg{
+    background: url(../images/golden-gate-bridge.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+#secondPostImg{
+    background: url(../images/nature.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+#thirdPostId{
+    background: url(../images/italy.jpg) no-repeat center center;
+    background-size: contain;
+}
+
+#fourthPostId{
+    background: url(../images/the-road.jpg) no-repeat center center;
+    background-size: contain;
 }
 
 .postLink{
-    background-color: coral;
     grid-area: pl;
 }
 

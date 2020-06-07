@@ -1,10 +1,15 @@
  body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
 }
 
 .container{
     display: grid;
-    grid-template-rows: 100px 100px auto 100px;
+    grid-template-rows: 100px 100px auto 50px;
     grid-template-areas: 
         "hd"
         "nb"
@@ -13,23 +18,23 @@
 }
 
 .header{
-    background-color: red;
     grid-area: hd;
 }
 
 .navbar{
-    background-color: orange;
+    background-color: #82b3c9;
     grid-area: nb;
+    
 }
 
 .content{
-    background-color: green;
     grid-area: main;
 }
 
 .footer{
-    background-color: hotpink;
     grid-area: ft;
+    text-align: center;
+    background-color:#b3e5fc;
 }
 
 

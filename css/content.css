@@ -6,10 +6,10 @@
     "sp"
     "tp"
     "fourthp";
+    
 }
 
 #firstPost{
-    background-color: rgb(126, 62, 172);
     grid-area: fp;
 }
 
