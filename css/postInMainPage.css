@@ -1,0 +1,45 @@
+.post{
+    display: grid;
+    grid-template-rows: 70px 150px auto 20px;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+    "ph ph"
+    "pi pi"
+    "pa pa"
+    "pl pl";
+    padding: 10px;
+}
+
+.postHeader{
+    background-color:burlywood;
+    grid-area: ph;
+}
+
+.postArticle{
+    background-color: orchid;
+    grid-area: pa;
+}
+
+.postImg{
+    background-color: palegreen;
+    grid-area: pi;
+    /* background-image: url('../images/golden-gate-bridge.jpg');
+    background-size: cover; */
+}
+
+.postLink{
+    background-color: coral;
+    grid-area: pl;
+}
+
+@media(min-width:600px){
+    .post{
+        display:grid;
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: 20% 70% 10%;
+        grid-template-areas: 
+        "ph ph"
+        "pa pi"
+        "pl pl";
+    }
+}

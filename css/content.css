@@ -1,6 +1,6 @@
 .content{
     display: grid;
-    grid-template-rows: 250px 250px 250px 250px;
+    grid-template-rows: 350px 350px 350px 350px;
     grid-template-areas: 
     "fp"
     "sp"
@@ -9,7 +9,7 @@
 }
 
 #firstPost{
-    background-color: indigo;
+    background-color: rgb(126, 62, 172);
     grid-area: fp;
 }
 
@@ -32,8 +32,8 @@
 @media(min-width:600px){
     .content{
         display:grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: 250px 250px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50% 50%;
         grid-template-areas: 
         "fp sp"
         "tp fourthp";
