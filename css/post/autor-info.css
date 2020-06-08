@@ -9,12 +9,10 @@
   border-radius: 50%;  
   background: url(../../images/avocado.png);
   background-size: contain;
-  /* margin: auto; */
 }
 
-.about-autor{
-    margin-left: 20px;
-    margin-top: 20px;
+.autor-info * {
+    margin: 0 auto;
 }
 
 .autor-name{
@@ -29,4 +27,13 @@
         display: flex;
         flex-direction: row;
     }
+
+    .autor-info * {
+        margin: 0 0;
+    }
+
+    .about-autor{
+        margin: auto 20px;
+    }
+
 }

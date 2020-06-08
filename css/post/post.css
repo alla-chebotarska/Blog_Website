@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -7,86 +7,95 @@ h2{
 }
 
 .flex-container {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: auto;
-    text-align: justify;
-  }
-  
-  .to-main-page{
-    text-decoration: none;
-    color: #df78ef;
-  }
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
 
-  .section{
-    border: 3px solid #b3e5fc;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+.to-main-page {
+  text-decoration: none;
+  color: #df78ef;
+}
 
-
-  
-  blockquote{
-  background-color:#ce93d8;
-  margin: 50px;
+.section {
+  border: 3px solid #b3e5fc;
+  border-radius: 10px;
   padding: 20px;
-  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+background-color:#ce93d8;
+padding: 10px;
+font-style: italic;
+}
+
+.blog-img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.footer {
+  border: 3px solid #df78ef;
+  border-radius: 10px;
+  background-color: #df78ef;
+  display: flex;
+}
+
+.social-media-btn {
+  margin: auto;
+  padding: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  text-align: center;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #790e8b;
+  color: white;
+}
+
+@media (min-width: 750px) {
+  blockquote {
+    margin: 50px;
+    padding: 20px;
   }
 
-  .blog-img{
+  .blog-img {
     width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
   }
-
-  figcaption{
-    text-align: center;
-  }
-
-  .footer{
-    border: 3px solid #df78ef;
-    border-radius: 10px;
-    background-color: #df78ef;
-    display: flex;
-  }
-
-  .social-media-btn{
-    margin: auto;
-    padding: 20px;
-  }
-
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-    text-align: center;
     
-  }
-
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #790e8b;
-    color: white;
-  }
+}
   
