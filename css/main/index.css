@@ -33,7 +33,8 @@ h1, h2{
 .footer{
     grid-area: ft;
     text-align: center;
-    background-color:#b3e5fc;
+    background-color:#ee98fb;
+    color: white;
 }
 
 

@@ -27,22 +27,22 @@
 }
 
 #firstPostImg{
-    background: url(../images/golden-gate-bridge.jpg) no-repeat center center;
+    background: url(../../images/golden-gate-bridge.jpg) no-repeat center center;
     background-size: contain;
 }
 
 #secondPostImg{
-    background: url(../images/nature.jpg) no-repeat center center;
+    background: url(../../images/nature.jpg) no-repeat center center;
     background-size: contain;
 }
 
 #thirdPostId{
-    background: url(../images/italy.jpg) no-repeat center center;
+    background: url(../../images/italy.jpg) no-repeat center center;
     background-size: contain;
 }
 
 #fourthPostId{
-    background: url(../images/the-road.jpg) no-repeat center center;
+    background: url(../../images/the-road.jpg) no-repeat center center;
     background-size: contain;
 }
 
