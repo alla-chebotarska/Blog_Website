@@ -1,13 +1,17 @@
 .post{
     display: grid;
-    grid-template-rows: 70px 150px auto 20px;
     grid-template-columns: 100%;
+    grid-template-rows: 20% 35% 35% 10%;
     grid-template-areas: 
     "ph ph"
     "pi pi"
     "pa pa"
     "pl pl";
     padding: 20px;
+    border: 3px solid #b3e5fc;
+    border-radius: 10px;
+    box-shadow: 10px 9px 10px -4px rgba(66,65,66,0.78);
+    
 }
 
 .postHeader{
@@ -46,7 +50,22 @@
     grid-area: pl;
 }
 
-@media(min-width:600px){
+.button{
+    background-color: #82b3c9;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 32px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #b3e5fc;
+    color: black;
+}
+
+@media(min-width:750px){
     .post{
         display:grid;
         grid-template-columns: 50% 50% ;
@@ -56,4 +75,5 @@
         "pa pi"
         "pl pl";
     }
+
 }

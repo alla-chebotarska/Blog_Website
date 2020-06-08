@@ -1,0 +1,16 @@
+.navbar{
+    padding: 20px;
+    border: 3px solid #b3e5fc;
+    border-radius: 10px;
+    margin: 0px 20px 20px 20px;
+}
+
+.navbar-button{
+    text-decoration: none;
+    font-size: 24px;
+    color: #82b3c9;
+}
+
+.navbar div {
+    margin-bottom: 20px;
+}

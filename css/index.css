@@ -3,13 +3,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1, h2{
     text-align: center;
 }
 
 .container{
     display: grid;
-    grid-template-rows: 100px 100px auto 50px;
+    grid-template-rows: 100px auto auto 50px;
     grid-template-areas: 
         "hd"
         "nb"
@@ -22,7 +22,6 @@ h1{
 }
 
 .navbar{
-    background-color: #82b3c9;
     grid-area: nb;
     
 }
@@ -38,7 +37,7 @@ h1{
 }
 
 
-@media(min-width:600px){
+@media(min-width:750px){
     .container{
         display:grid;
         grid-template-columns: 20vw 40vw 40vw;
