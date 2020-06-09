@@ -9,7 +9,6 @@ h2{
 .flex-container {
   display: flex;
   flex-direction: column;
-  width: 70%;
   margin: auto;
   text-align: justify;
 }
@@ -28,9 +27,10 @@ h2{
 }
 
 blockquote {
-background-color:#ce93d8;
-padding: 10px;
-font-style: italic;
+  background-color:#ce93d8;
+  padding: 10px;
+  font-style: italic;
+  margin: 0;
 }
 
 .blog-img {
@@ -38,6 +38,10 @@ font-style: italic;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+figure {
+  margin: 10px 0;
 }
 
 figcaption {
@@ -88,6 +92,10 @@ figcaption {
 }
 
 @media (min-width: 750px) {
+  .flex-container{
+    width: 70%;
+  }
+
   blockquote {
     margin: 50px;
     padding: 20px;
